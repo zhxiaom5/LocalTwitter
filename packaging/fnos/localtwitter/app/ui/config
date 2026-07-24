@@ -1,0 +1,13 @@
+{
+  ".url": {
+    "localtwitter.APPLICATION": {
+      "title": "LocalTwitter",
+      "icon": "images/localtwitter-icon-{0}.png",
+      "type": "url",
+      "protocol": "http",
+      "port": "${wizard_app_port}",
+      "url": "/",
+      "allUsers": true
+    }
+  }
+}

@@ -1,0 +1,9 @@
+#!/bin/bash
+set -uo pipefail
+
+# fnOS passes updated authorized paths through TRIM_DATA_ACCESSIBLE_PATHS.
+# Keep the settings callback side-effect free. fnOS treats failures or slow
+# process control during settings save as a network error. Restart the app from
+# fnOS after saving authorized folders so the new environment is applied.
+
+exit 0

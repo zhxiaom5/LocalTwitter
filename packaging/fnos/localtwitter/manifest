@@ -1,0 +1,16 @@
+appname=localtwitter
+version=0.1.46
+display_name=LocalTwitter
+desc=局域网版本地 Twitter 作品浏览 Web 应用
+platform=x86
+source=thirdparty
+maintainer=LocalTwitter
+distributor=LocalTwitter
+os_min_version=0.9.27
+install_type=root
+ctl_stop=true
+desktop_uidir=ui
+desktop_applaunchname=localtwitter.APPLICATION
+service_port=8080
+checkport=true
+disable_authorization_path=false
